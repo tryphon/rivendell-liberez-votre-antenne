@@ -44,7 +44,8 @@
 * Avril 2002 : Début du projet
 * Juin 2004 : Support Jack
 * Septembre 2004 : Premier déploiement
-* Août 2009 : version 1.5.1
+* 2010 : version 1.7.2
+* version 2 en test
 
 !SLIDE bullets incremental
 
@@ -189,16 +190,6 @@
 * Lancement de macros
 * Jusqu'à 3 logs en parallèle
 * Sorties audios dédiées possibles
-
-!SLIDE bullets
-
-# RdLibrary #
-## Edition des Carts
-
-![RdLibrary](rdlibrary.png)
-
-* Cart : les diffusables
-* Cut : les sons
 
 !SLIDE bullets
 
@@ -542,3 +533,13 @@
 * rivendell-fr@lists.tryphon.org
 * radio-logiciel-libre@lists.tryphon.org
 * http://www.tryphon.eu
+
+<div id="license">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+    <img alt="Contrat Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+  </a>
+  <br/>
+  <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Rivendell - Libérez votre antenne</span> par <a xmlns:cc="http://creativecommons.org/ns#" href="http://tryphon.eu" property="cc:attributionName" rel="cc:attributionURL">Tryphon</a>
+  <br/>
+  Mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">licence Creative Commons by-nc-sa 3.0</a>.
+</div>

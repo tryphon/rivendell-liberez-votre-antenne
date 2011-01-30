@@ -6,6 +6,10 @@ body {
     border: 0;
 }
 
+#preso, .slide {
+    height: 710px;
+}
+
 h1 {
     position: relative;
     top: -1em;
@@ -30,7 +34,7 @@ h2 {
 }
 
 .content {
-    margin-top: 6em !important;
+    margin-top: 5em !important;
     background-color: #DDD5C7;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -78,16 +82,36 @@ h2 {
     height: 85%;
 }
 
+.content #license {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.content #license a {
+    text-decoration: none;
+}
+
+.content #license img {
+    float: none;
+    margin: 0;
+}
+
 #footer {
     color: white;
-    height: 48px;
     background: #990000 url('tryphon.png') no-repeat 10px 5px;
+    text-align: center;
+    padding-top: 18px;
+    height: 30px;
+}
+
+#footer:before {
+    content: 'Rivendell - Libérez votre antenne'
 }
 
 #footer #slideInfo {
     float: right;
     margin-right: 5px;
-    margin-top: 15px;
     font-size: 90%;
     text-align: right;
 }
