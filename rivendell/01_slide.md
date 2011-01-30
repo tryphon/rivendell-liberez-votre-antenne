@@ -92,7 +92,7 @@
 
 * Linux: Debian, Ubuntu, Suse, …
 
-* Pas de license payante : GPL
+* Pas de licence payante : GPL
 
 !SLIDE bullets incremental
 
@@ -176,10 +176,10 @@
 
 #RdAirPlay – Automatique#
 
-* Meme interface
+* Même interface
 
-* Charger un Log 
-* Préparé directement ou à part
+* Charger un Log
+* préparé directement ou à part
 
 !SLIDE bullets
 
@@ -236,7 +236,7 @@
 
 ## Son
 
-* Description, Origin
+* Description, Origine
 * Stats de diffusion
 * Périodes d'utilisation
 * Enregistrement
@@ -420,7 +420,7 @@
 * Définitions des feeds
 * Utilisation directe des Carts
 
-## Concretrement :
+## Concrètement :
 
 * Compression et upload via RdCatch
 * Mise à jour des fichiers RSS
