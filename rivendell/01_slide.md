@@ -44,8 +44,7 @@
 * Avril 2002 : Début du projet
 * Juin 2004 : Support Jack
 * Septembre 2004 : Premier déploiement
-* 2010 : version 1.7.2
-* version 2 en test
+* 2012 : version 2.1.5
 
 !SLIDE bullets incremental
 
@@ -84,7 +83,7 @@
 
 * Compatible ALSA
 * M-Audio, ..., ASI, ..., Sound Blaster
-* En LiveAssist : jusqu'à 14 voies
+* En LiveAssist : jusqu'à 14 voies ... stereo
 
 !SLIDE bullets 
 
@@ -304,22 +303,6 @@
 * Transitions
 * Contraintes horaires
 
-!SLIDE smbullets
-
-# Autres fonctionnalités
-
-* Programmation automatique
-* Enregistrements
-* Gestion logins utilisateurs
-* GPIOs, switchs
-* Download, upload
-* Voicetracking
-* Now & Next
-* Support de Twitter
-* Podcasts
-* Backup
-* ...
-
 !SLIDE bullets
 
 # RdAdmin
@@ -360,6 +343,22 @@
 
 * Entrées/Sorties Audio
 * GPIOs, Switchs, ...
+
+!SLIDE smbullets
+
+# Autres fonctionnalités
+
+* Programmation automatique
+* Enregistrements
+* Gestion logins utilisateurs
+* GPIOs, switchs
+* Download, upload
+* Voicetracking
+* Now & Next
+* Support de Twitter
+* Podcasts
+* Backup
+* ...
 
 !SLIDE bullets
 
@@ -500,6 +499,7 @@
 * Station studio
 * Station administration
 * Serveur de stockage (NAS)
+* Réseau gigabit
 
 ## Conçu pour gérer plusieurs studios
 
@@ -513,6 +513,10 @@
 * selon état de l'informatique et du réseau
 * selon objectifs : vitesse ou maitrise ?
 
+## Clé en main ?
+
+* RivendellBoxes
+
 !SLIDE bullets
 
 # Extensions
@@ -520,7 +524,6 @@
 * Streaming
 * Pige
 * Mastering
-* Intégration Jack
 * Duplex entre studios
 * Call Commander
 
