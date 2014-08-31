@@ -7,7 +7,7 @@
 !SLIDE bullets incremental
 # Préambule #
 
-## Logiciels libres pour les radios libres ##
+## Logiciels libres<br/>pour les radios libres ##
 
 * Montage
 * Streaming
@@ -23,7 +23,7 @@
 !SLIDE bullets center
 # Rivendell #
 
-## Gestion d'antenne radiophonique ##
+## Gestion d'antenne<br/>radiophonique ##
 
 * **D**iffusion
 * Logiciel libre
@@ -31,7 +31,7 @@
 !SLIDE bullets
 # Rivendell #
 
-## Créé, maintenu par Fred Gleason
+Créé, maintenu par Fred Gleason
 
 * initialement chez Salem Radio Labs
 * actuellement Paravel Systems
@@ -44,7 +44,7 @@
 * Avril 2002 : Début du projet
 * Juin 2004 : Support Jack
 * Septembre 2004 : Premier déploiement
-* 2012 : version 2.1.5
+* 2014 : version 2.9.0
 
 !SLIDE bullets incremental
 
@@ -66,32 +66,33 @@
 * Pas vraiment utile sans “studio”
 * Pas un streamer
 
-!SLIDE bullets 
+!SLIDE bullets
 
 # Prérequis - Matériel #
 
-## Ordinateur récent ##
+## Ordinateur récent
 
-* Unité centrale : 500 €
-* Ecran(s), option (couteuse) : tactile
+* Unité centrale : ~500 €
+* Ecran(s), option : tactile
 
-!SLIDE bullets 
+!SLIDE bullets
 
 # Prérequis - Matériel #
 
 ## Carte son “prolixe” ##
 
 * Compatible ALSA
-* M-Audio, ..., ASI, ..., Sound Blaster
-* En LiveAssist : jusqu'à 14 voies ... stereo
+* RME, ..., ASI, ..., Sound Blaster
+* En LiveAssist : jusqu'à 19 voies ... stereo
 
-!SLIDE bullets 
+!SLIDE bullets
 
-# Prérequis - Logiciel #
+# Prérequis
+## Logiciels
 
 * Linux: Debian, Ubuntu, Suse, …
 
-* Pas de licence payante : GPL
+Pas de licence payante : GPL
 
 !SLIDE bullets incremental
 
@@ -99,12 +100,14 @@
 
 ## De la compétence ##
 
+Multiples :
+
 * ALSA, Jack,
-* stockage, base de données, 
-* sauvegardes, 
+* stockage, base de données,
+* sauvegardes,
 * réseau, NFS, ...
 
-## Du temps ##
+A défaut, du temps
 
 !SLIDE center
 
@@ -125,45 +128,49 @@
 * Assistance au direct
 * Diffusion automatique
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
-#RdAirPlay - SoundPanel#
+# RdAirPlay
+## SoundPanel
 
 ![SoundPanel](rdairplay-soundpanel.png)
 
-## Lancer ##
+Lancer :
 
 * les jingles
 * des commandes
 
-## Sorties dédiées ##
+Sorties dédiées
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
-#RdAirPlay - SoundPanel#
+# RdAirPlay
+## SoundPanel
 
 ![SoundPanel](rdairplay-soundpanel.png)
 
-##  Configurable ##
+Configurable :
 
 * Par Utilisateur
 * Par Service
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
-#RdAirPlay – Live Assist#
+# RdAirPlay
+## Live Assist
 
 ![Carts](rdairplay-mainlog.png)
 
-## Tout ##
+Diffuser "Tout" :
 
 * Musique, jingles, PAD, …
 * Cart
 * Manual / Live Assist
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
-#RdAirPlay – Live Assist#
+# RdAirPlay
+## Live Assist
 
 ![Carts](rdairplay-mainlog.png)
 
@@ -173,7 +180,8 @@
 
 !SLIDE bullets
 
-#RdAirPlay – Automatique#
+# RdAirPlay
+## Automatique
 
 * Même interface
 
@@ -182,15 +190,16 @@
 
 !SLIDE bullets
 
-#RdAirPlay – Automatique#
+# RdAirPlay
+## Automatique
 
 * Transitions, enchainements
 * Contraintes horaires
 * Lancement de macros
-* Jusqu'à 3 logs en parallèle
+* Jusqu'à 3 logs
 * Sorties audios dédiées possibles
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdLibrary #
 
@@ -201,7 +210,7 @@
 * Cart : les diffusables
 * Cut : les sons
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdLibrary - Carts #
 
@@ -214,9 +223,9 @@
 * Group
 * *n* Cuts
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
-# RdLibrary - Carts #
+# RdLibrary - Carts
 
 ![RdLibrary](rdlibrary.png)
 
@@ -227,7 +236,7 @@
 * Groupe, Scheduler Codes
 * Client, Agency
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdLibrary - Cuts #
 
@@ -240,7 +249,7 @@
 * Périodes d'utilisation
 * Enregistrement
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdLibrary - Cuts #
 
@@ -253,9 +262,9 @@
 * Talk
 * Segue
 
-## Trim Début/Fin
+Trim Début/Fin
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdLibrary - Import #
 
@@ -278,12 +287,13 @@
 
 !SLIDE bullets
 
-# Import - DropBoxes #
+# Import
+## DropBoxes
 
 * Imports automatiques
 * Détection de fichiers dans un répertoire
 
-## Paramètres prédéfinis
+Paramètres prédéfinis :
 
 * Utilisation du nom du fichier
 * Group
@@ -292,18 +302,20 @@
 !SLIDE bullets
 
 # RdLogEdit
-
 ## Edition des Logs
 
 * Manuels
 * Automatiques
 
-## Gestion 
+!SLIDE
+
+# RdLogEdit
+## Gestion
 
 * Transitions
 * Contraintes horaires
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdAdmin
 
@@ -326,9 +338,10 @@
 
 !SLIDE bullets
 
-# RdAdmin - Host
+# RdAdmin
+## Host
 
-## Configuration des applications 
+Configuration des applications :
 
 * pour chaque Host
 * RdAirPlay, RdCatch, …
@@ -337,16 +350,17 @@
 
 !SLIDE bullets
 
-# RdAdmin - Host
+# RdAdmin
+## Host
 
-## Configuration matérielle
+Configuration matérielle
 
 * Entrées/Sorties Audio
 * GPIOs, Switchs, ...
 
 !SLIDE smbullets
 
-# Autres fonctionnalités
+# Autres<br/>fonctionnalités
 
 * Programmation automatique
 * Enregistrements
@@ -362,23 +376,30 @@
 
 !SLIDE bullets
 
-# Premières Questions
+# Premières <br/> Questions
 
-* Questions ?
+... Questions ?
 
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # RdLogManager
-
 ## Génération des logs
 
-![RdLogManager](rdlogmanager-grid.png)
+![RdLogManager - Grid](rdlogmanager-grid.png)
 
 * Grid
 * Clock
 * Event
 
-!SLIDE bullets
+!SLIDE center
+
+# RdLogManager
+
+## Clock
+
+![RdLogManager - Clock](rdlogmanager-clock.png)
+
+!SLIDE bullets imgside
 
 # RdCatch
 
@@ -395,18 +416,19 @@
 
 # Macros
 
-## Gèrent
+Gèrent
 
 * RdAirplay : chargement de logs
 * Switchs, GPIOs
 * RdCatch : enregistrements
+* Jack
 * Autres : messages, commandes externes, …
 
 !SLIDE bullets
 
 # Macros
 
-## Se programme dans un diffusable
+Se programme dans un diffusable
 
 * Dans un log
 * Dans un bouton du SoundPanel
@@ -419,7 +441,7 @@
 * Définitions des feeds
 * Utilisation directe des Carts
 
-## Concrètement :
+Concrètement :
 
 * Compression et upload via RdCatch
 * Mise à jour des fichiers RSS
@@ -427,7 +449,6 @@
 !SLIDE bullets
 
 # Documentation
-
 ## Rivendell Operations Guide
 
 * “très” complet
@@ -435,7 +456,6 @@
 * Écrit et maintenu par Fred Gleason
 
 !SLIDE bullets
-
 # Documentation
 
 ## Wiki
@@ -443,6 +463,10 @@
 * très riche
 * participatif
 
+http://rivendell.tryphon.org
+
+!SLIDE bullets
+# Documentation
 ## Listes de discussion
 
 * RDD (anglais)
@@ -452,17 +476,12 @@
 
 # Communauté française
 
-* Française, Belge, ...
+Française, Belge, ...
 
-## Liste de discussion
+* Liste de discussion : rivendell-fr@lists.tryphon.org
+* Channel IRC : \#rivendell-fr
 
-* rivendell-fr@lists.tryphon.org
-
-## Channel IRC
-
-* \#rivendell-fr
-
-!SLIDE bullets
+!SLIDE bullets imgside
 
 # Communauté française
 
@@ -474,18 +493,18 @@
 * Operations Guide
 * Wiki
 
-## A relancer
+A relancer
 
 !SLIDE bullets
 
 # Modèle “économique”
 
-## Dépenses
+**Dépenses**
 
 * Du temps
 * Trouver les bons conseils
 
-## Recettes
+**Recettes**
 
 * Maitrise de votre système
 * Intégration sur mesure
@@ -493,7 +512,6 @@
 !SLIDE bullets
 
 # Installation
-
 ## Configuration classique
 
 * Station studio
@@ -501,7 +519,7 @@
 * Serveur de stockage (NAS)
 * Réseau gigabit
 
-## Conçu pour gérer plusieurs studios
+Conçu pour gérer plusieurs studios
 
 !SLIDE bullets
 
@@ -513,9 +531,7 @@
 * selon état de l'informatique et du réseau
 * selon objectifs : vitesse ou maitrise ?
 
-## Clé en main ?
-
-* RivendellBoxes
+Clé en main ? : RivendellBoxes
 
 !SLIDE bullets
 
@@ -531,11 +547,11 @@
 
 # Questions
 
-## Pour continuer la discussion
+Pour continuer la discussion :
 
 * rivendell-fr@lists.tryphon.org
 * radio-logiciel-libre@lists.tryphon.org
-* http://www.tryphon.eu
+* http://tryphon.eu
 
 <div id="license">
   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
